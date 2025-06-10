@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tentación en Rollo</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fef6f0;
+      color: #5e4638;
+    }
+    header {
+      background-color: #f7c8ba;
+      color: #4b2e2e;
+      text-align: center;
+      padding: 30px;
+      border-bottom: 4px solid #f0a390;
+    }
+    nav {
+      background-color: #ffd9d0;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #4b2e2e;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .departamentos, .integrantes {
+      background-color: #fff;
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    }
+    .menu {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .menu-item {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      width: 300px;
+    }
+    .menu-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .menu-item h3 {
+      margin: 10px;
+      color: #4b2e2e;
+    }
+    .menu-item p {
+      margin: 0 10px 10px;
+      font-size: 14px;
+    }
+    footer {
+      background-color: #f7c8ba;
+      color: #4b2e2e;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+      border-top: 3px solid #f0a390;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Tentación en Rollo</h1>
+  <p><em>"Envueltos en sabor, horneados con pasión"</em></p>
+</header>
+
+<nav>
+  <a href="#inicio">Inicio</a>
+  <a href="#menu">Menú</a>
+  <a href="#departamentos">Departamentos</a>
+  <a href="#integrantes">Integrantes</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="inicio">
+  <h2>Bienvenidos</h2>
+  <p>En <strong>Tentación en Rollo</strong> ofrecemos los mejores roles de canela, elaborados con ingredientes frescos y un toque especial que los hace únicos.</p>
+</section>
+
+<section id="menu">
+  <h2>Menú de Roles</h2>
+  <div class="menu">
+    <div class="menu-item">
+      <img src="https://cdn.pixabay.com/photo/2020/01/30/17/58/cinnamon-rolls-4808636_960_720.jpg" alt="Rol clásico de canela">
+      <h3>Rol Clásico</h3>
+      <p>Esponjoso, suave y bañado con glaseado de vainilla.</p>
+    </div>
+    <div class="menu-item">
+      <img src="https://cdn.pixabay.com/photo/2020/04/11/17/29/cinnamon-rolls-5029586_960_720.jpg" alt="Rol con nuez">
+      <h3>Rol con Nuez</h3>
+      <p>Con nuez caramelizada para darle ese toque crocante.</p>
+    </div>
+    <div class="menu-item">
+      <img src="https://cdn.pixabay.com/photo/2021/12/08/12/33/cinnamon-rolls-6855740_960_720.jpg" alt="Rol de chocolate">
+      <h3>Rol de Chocolate</h3>
+      <p>Perfecto para los amantes del chocolate, con relleno cremoso.</p>
+    </div>
+  </div>
+</section>
+
+<section id="departamentos" class="departamentos">
+  <h2>Departamentos</h2>
+  <ul>
+    <li>Producción</li>
+    <li>Marketing</li>
+    <li>Diseño Web</li>
+    <li>Soporte Técnico</li>
+    <li>Ventas</li>
+    <li>Logística</li>
+    <li>Recursos Humanos</li>
+    <li>Administración</li>
+  </ul>
+</section>
+
+<section id="integrantes" class="integrantes">
+  <h2>Integrantes del Equipo</h2>
+  <ul>
+    <li><strong>Arteaga Torres Melissa</strong> - Área de Marketing</li>
+    <li><strong>Recillas Torres Camila Siloe</strong> - Operarios de Producción</li>
+    <li><strong>Torres Gonzalez Zoe Nicole</strong> - Diseño Web</li>
+    <li><strong>Cortes Lopez Cristian Yahir</strong> - Diseño Web</li>
+    <li><strong>Ramirez Olmos Arturo Khael</strong> - Producción</li>
+    <li><strong>Terrazas Garcia Ximena</strong> - Soporte Técnico</li>
+    <li><strong>Mejía Perea Carolina</strong> - Soporte Técnico</li>
+  </ul>
+</section>
+
+<section id="contacto">
+  <h2>Contacto</h2>
+  <p>📍 <strong>Dirección:</strong> Calle Dulce #123, Ciudad Canela</p>
+  <p>📞 <strong>Teléfono:</strong> 555-123-4567</p>
+  <p>📧 <strong>Email:</strong> contacto@tentacionenrollo.com</p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Tentación en Rollo. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
